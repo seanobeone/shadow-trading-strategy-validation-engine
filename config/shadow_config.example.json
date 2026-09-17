@@ -1,0 +1,22 @@
+{
+  "futures": {
+    "enabled": true,
+    "mode": "SHADOW",
+    "live_authority": false,
+    "shadow_capital_usd": 10000.0,
+    "max_contracts_per_trade": 1,
+    "max_open_positions": 2,
+    "risk_per_trade_pct": 1.0,
+    "shadow_stop_pct": 2.0,
+    "shadow_take_profit_pct": 3.0
+  },
+  "kraken": {
+    "enabled": true,
+    "mode": "SHADOW",
+    "live_authority": false,
+    "strategy": "KRAKEN_UNIFIED",
+    "risk_per_trade_pct": 1.0,
+    "max_open_positions": 2,
+    "execution_isolated": true
+  }
+}
