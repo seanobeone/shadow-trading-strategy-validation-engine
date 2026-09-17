@@ -1,0 +1,2 @@
+# Public SHADOW engines use only the Python standard library.
+# Python 3.11+ recommended.
